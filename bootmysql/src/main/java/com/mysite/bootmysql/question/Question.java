@@ -21,6 +21,7 @@ import jakarta.persistence.OneToMany;
 @Setter
 @Entity
 public class Question {
+	
     @Id //기본키
     @GeneratedValue(strategy = GenerationType.IDENTITY) //번호 자동생성
     private Integer id;
